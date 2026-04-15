@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'Chillax Semibold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Chillax Semibold'), url('../fonts/Chillax-Semibold.woff') format('woff');
+}
+
+#app {
+  font-family: Chillax Semibold;
+}
+
+/* .hello-world-class {
+  z-index: 1;
+}
+
+.other-component-class {
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  float: bottom;
+  bottom: 14em;
+} */
+
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  width: 20%;
+  margin-bottom: 5%;
+}
+
+#home-header-title {
+  height: 100vh;
+  margin-top: 15%;
+}
+
+.login {
+  display: block;
+}
+
+.login-section {
+  height: 93vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  width: 60%;
+}
+
+.notunderlined {
+  color: #fe5f55 !important;
+}
+
+.recordarme-label {
+  margin-right: 20%;
+}
+
+#remember-checkbox {
+  border-radius: 25px;
+  border: 1.5px solid #000;
+}
+
+.recover-password, .signup {
+  color: #ee5b39
+}
+
+.recover-password:hover, .signup:hover {
+  color: #fe5f55;
+}
+
+.login-btn {
+  margin-top: 3%;
+  margin-bottom: 5%;
+  border: none;
+  width: 10em;
+  height: 3em;
+  font-size: 18px;
+  color: white;
+  background-color: #ee5b39;
+}
+
+.login-btn:hover {
+  background-color: #fe5f55;
+}
+
+#username, #password, #email {
+  width: 90%;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #fe5f55;
+  text-indent: 3px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#username:focus, #password:focus, #email:focus {
+  border-color: #ee5b39;
+}
+
+#username::placeholder, #password::placeholder, #email::placeholder {
+  color: #aaaaaa;
+}
+
+.login {
+  position: relative;
+  padding: 2rem;
+  background-color: #fff !important;
+  width: 100%;
+  max-width: 430px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px #bbbbbb;
+}
+
+.login h1 {
+  color: #000000;
+  font-size: 26px;
+  margin-bottom: 4%;
+}
